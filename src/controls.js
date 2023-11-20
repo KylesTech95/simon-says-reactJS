@@ -28,10 +28,10 @@ const resetFn = ()=>{
   return (
     <div id="controls-wrapper" className='space-evenly' ref={controlRef}>
       <div className="controls-start">
-        <span className="material-symbols-outlined play appeared" ref={playRef} onClick={startGame}>play_arrow</span>
+        <span className="material-symbols-outlined play appeared" ref={playRef} OnTouchStart={startGame} onClick={startGame}>play_arrow</span>
       </div>
       <div className="controls-reset" ref={resetRef}>
-        <span className="material-symbols-outlined reset appeared" onClick={resetFn}>restart_alt</span>
+        <span className="material-symbols-outlined reset appeared" OnTouchStart={resetFn} onClick={resetFn}>restart_alt</span>
       </div>
     </div>
   )
