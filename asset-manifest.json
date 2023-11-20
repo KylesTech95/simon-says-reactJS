@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/simon-says-reactJS/static/css/main.a683f508.css",
+    "main.css": "/simon-says-reactJS/static/css/main.b203b96d.css",
     "main.js": "/simon-says-reactJS/static/js/main.064e6406.js",
     "static/js/787.123358da.chunk.js": "/simon-says-reactJS/static/js/787.123358da.chunk.js",
     "index.html": "/simon-says-reactJS/index.html",
-    "main.a683f508.css.map": "/simon-says-reactJS/static/css/main.a683f508.css.map",
+    "main.b203b96d.css.map": "/simon-says-reactJS/static/css/main.b203b96d.css.map",
     "main.064e6406.js.map": "/simon-says-reactJS/static/js/main.064e6406.js.map",
     "787.123358da.chunk.js.map": "/simon-says-reactJS/static/js/787.123358da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a683f508.css",
+    "static/css/main.b203b96d.css",
     "static/js/main.064e6406.js"
   ]
 }
