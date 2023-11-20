@@ -63,6 +63,63 @@
       bottom: 10%
     }
   }
+  /*iPhone 12 - landscape*/
+  @media screen and (max-width: 844px) and (max-height:390px){
+    .tile{
+      height: 125px;
+      width: 125px;
+    }
+    .space-evenly{
+      gap: 5rem;
+    }
+    #gameboard-container{
+      gap: 7.5px;
+    }
+    
+    .centered{
+      gap: 1rem;
+    }
+    #controls-wrapper{
+      margin-bottom: 2rem;
+    }
+    .toggle-container{
+      right: 40%;
+      bottom: 10%
+    }
+    .toggle-container{
+      top: 2rem;
+      right: 22%;
+    }
+  }
+  /*iPhone 12- portrait*/
+  @media screen and (max-width: 390px) and (max-height:844px){
+    .tile{
+      height: 125px;
+      width: 125px;
+    }
+    .App{
+      gap: 2rem;
+    }
+    .space-evenly{
+      gap: 5rem;
+    }
+    #gameboard-container{
+      gap: 7.5px;
+    }
+    .centered{
+      gap: 1rem;
+    }
+    #controls-wrapper{
+      margin-bottom: -4rem;
+    }
+    .toggle-container{
+      right: 40%;
+      bottom: 10%
+    }
+    header{
+      top: 4rem;
+    }
+  }
    /*_______________________________*/
     /*Samsung Galaxy S8 - landscape*/
     @media screen and (max-width: 750px) and (max-height: 370px){
@@ -101,53 +158,7 @@
         margin-left: 1.5rem;
       }
     }
-  /*Pixel - Landscape*/
-    @media screen and (max-width: 900px) and (max-height: 400px){
-      .tile{
-        height: 120px;
-        width: 120px;
 
-      }
-      #gameboard-container{
-        gap: 3.5px;
-        margin-top: 20px;
-      }
-      .space-evenly{
-        gap: 10rem;
-      }
-      .centered{
-        gap: 1rem;
-      }
-      #controls-wrapper>div>span{
-        transform: scale(3.25);
-      }
-      header{
-        left: 30px;
-        max-width: 200px;
-      }
-      .sub-text{
-        margin-top:4rem;
-      }
-      
-      .level{
-        bottom: 40px;
-      }
-      .App{
-        height:100vh;
-        gap: 1.5rem;
-      }
-    }
-  /*Pixel - Portrait*/
-    @media screen and (max-width: 400px) and (max-height:900px){
-      .tile{
-        height: 175px;
-        width: 175px;
-      }
-      .App{
-        gap: 2rem;
-      }
-      
-    }
   /*_______________________________*/
   /*iPhone 12/13 Pro Mini- landscape*/
   @media screen and (max-width: 820px) and (max-height: 385px){
