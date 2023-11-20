@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/simon-says-reactJS/static/css/main.a683f508.css",
+    "main.js": "/simon-says-reactJS/static/js/main.78c531c8.js",
+    "static/js/787.123358da.chunk.js": "/simon-says-reactJS/static/js/787.123358da.chunk.js",
+    "index.html": "/simon-says-reactJS/index.html",
+    "main.a683f508.css.map": "/simon-says-reactJS/static/css/main.a683f508.css.map",
+    "main.78c531c8.js.map": "/simon-says-reactJS/static/js/main.78c531c8.js.map",
+    "787.123358da.chunk.js.map": "/simon-says-reactJS/static/js/787.123358da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a683f508.css",
+    "static/js/main.78c531c8.js"
+  ]
+}
