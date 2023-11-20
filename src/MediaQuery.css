@@ -64,7 +64,7 @@
     }
   }
   /*iPhone 12 - landscape*/
-  @media screen and (max-width: 844px) and (max-height:390px){
+  @media screen and (max-width: 900px) and (max-height:420px){
     .tile{
       height: 125px;
       width: 125px;
@@ -81,6 +81,7 @@
     }
     #controls-wrapper{
       margin-bottom: 2rem;
+      margin-top: 3rem;
     }
     .toggle-container{
       right: 40%;
@@ -90,12 +91,15 @@
       top: 2rem;
       right: 22%;
     }
+    .level{
+      bottom: 30px;
+    }
   }
   /*iPhone 12- portrait*/
   @media screen and (max-width: 390px) and (max-height:844px){
     .tile{
-      height: 125px;
-      width: 125px;
+      height: 135px;
+      width: 135px;
     }
     .App{
       gap: 2rem;
