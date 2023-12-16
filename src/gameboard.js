@@ -70,7 +70,7 @@ export default function Gameboard({bg_count,tiles,tilesRef,start_count,comp_spee
     <>
       <div id="gameboard-container" ref={tilesRef}>
         {tiles.map((tile)=>(
-          <div className="tile deactivated-default" OnTouchStart={clickFn} onClick={clickFn} key={tile.id} id={tile.color} style={{backgroundColor:`${level>0&&level%4==0 ? tile.alternate : tile.color}`, transition:`.3s`}}>
+          <div className="tile deactivated-default" onTouchStart={clickFn} onClick={clickFn} key={tile.id} id={tile.color} style={{backgroundColor:`${level>0&&level%4==0 ? tile.alternate : tile.color}`, transition:`.3s`}}>
           </div>
         ))}
       </div>

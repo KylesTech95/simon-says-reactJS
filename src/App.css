@@ -58,9 +58,9 @@ transition: .35s;
 }
 header{
   position: absolute;
-  top: 30px;
   text-align: center;
   text-transform: uppercase;
+  left: 6rem;
   }
   .sub-text{
     margin-top: 1.75rem;
@@ -86,12 +86,13 @@ header{
     gap: 15px;
     grid-template-columns: 1fr 1fr; 
     transition: .3s;
+    margin-top:3rem;
   
   }
   
 .tile{
-  width: 250px;
-  height: 250px;  
+  width: 200px;
+  height: 200px;  
   transition: .3s;
 }
 .tile:hover{
